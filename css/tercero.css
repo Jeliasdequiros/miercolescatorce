@@ -5,13 +5,21 @@
      
 }
 
+body{
+    background-image: url(../img/desktop/star-wars-squadrons-zoom-background\ 1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header{
     grid-column: 1/2;
     grid-row: 1/2;
     /* subgrid */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   
+   align-items: center;
+   justify-items: center;
 }
 
 main{
@@ -77,7 +85,7 @@ row-gap: 10px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0;
+    margin: 1rem;
 }
 
 .main_logo2{
@@ -87,25 +95,25 @@ row-gap: 10px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0;
+    margin: 1rem;
 }
 
 .main_logo3{
     grid-row:3/4;
     grid-column: 3/4;
-    background-image: url(../img/svg/logo\ 3\ 1\ \(2\).svg);
+    background-image: url(../img/svg/logo\ 4\ 1\ \(2\).svg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0;
+    margin: 1rem;
 }
 
 .main_logo4{
     grid-row:4/5;
     grid-column: 2/3;
-    background-image: url(../img/svg/logo\ 4\ 1\ \(2\).svg);
+    background-image: url(../img/svg/logo\ 3\ 1\ \(2\).svg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0;
+    margin: 1rem;
 }

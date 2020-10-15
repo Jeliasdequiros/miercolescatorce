@@ -4,48 +4,44 @@ display:grid;
 grid-template-columns: 0.5fr 1.5fr 5%;
 grid-template-rows: 100px 1fr;
 column-gap: 10px;
-justify-items: center;
 }
 
 header{
-    grid-column:2/3;
+    grid-column:2/3;  
 }
 
 main{
     grid-column: 2/3;
-    grid-row: 2/4;
+    grid-row: 2/3;
     /* subgrid */
     display: grid;
-    grid-column: 1fr;
-    grid-template-rows: 0.7fr 1.2fr 1fr;
-    
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.7fr 1.2fr 1fr;   
 }
 
-/* .main_imagen{
-    
-    background-image: url(../img/desktop/vengadores.jpg);
+.main_imagen{ 
+    background-image: url(../img/desktop/vengadores\ 1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: cover;
     margin:0;
     grid-column:1/2;
     grid-row: 1/4;
-} */
+}
 
 .logomarvel{
     background-image: url(../img/svg/MarvelLogo.svg);
     background-repeat: no-repeat;
-    background-size:60%;
+    background-size:100%;
     background-position: center;
     grid-column: 2/3;
-    grid-row: 1/2;
-    
+    grid-row: 1/2;  
 }
 
 p{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 2/3;
-    text-align: justify;
+    text-align: justify;  
 }
 
 .estrella{
