@@ -2,3 +2,85 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+body{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+
+nav{
+width:100%;
+display:grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: repeat(4, 1fr);
+}
+
+.nav-link1{
+    grid-row: 1/2;
+}
+
+.nav-link2{
+    grid-row: 2/3;
+}
+
+.nav-link3{
+    grid-row: 3/4;
+}
+
+.nav-link4{
+    grid-row: 4/5;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Aumento de tipografía */
+nav a:hover{
+    font-size: 5rem;
+}
+
+/* visualización del pantallazo */
+.nav-link1:hover ~ .pantallazo{
+width:100%;
+height: 500px;
+background-image: url(../img/desktop/Nav1.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+grid-column: 2/3;
+grid-row: 1/5;
+}
+
+.nav-link2:hover ~.pantallazo{
+width:100%;
+height: 500px;
+background-image: url(../img/desktop/Nav2.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+grid-column: 2/3;
+grid-row: 1/5;
+}
+
+.nav-link3:hover ~.pantallazo{
+width:100%;
+height: 500px;
+background-image: url(../img/desktop/Nav3.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+grid-column: 2/3;
+grid-row: 1/5;
+}
+
+.nav-link4:hover figure{
+width:100%;
+height: 500px;
+background-image: url(../img/desktop/Nav4.jpg);
+}
+
