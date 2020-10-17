@@ -155,6 +155,7 @@ main{
     filter: none;
     transform: scale(200%);
     z-index: 1;
+
 }
 
 .nemo:hover{

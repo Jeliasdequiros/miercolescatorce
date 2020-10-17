@@ -8,14 +8,20 @@ body{
     align-items:center;
     font-family: sans-serif;
     font-size: 2rem;
+    
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
 
 nav{
-width:100%;
-display:grid;
+width: 100%;
+display: grid;
 grid-template-columns: 1fr 2fr 1fr;
 grid-template-rows: repeat(4, 1fr);
+
 }
 
 .nav-link1{
@@ -34,10 +40,6 @@ grid-template-rows: repeat(4, 1fr);
     grid-row: 4/5;
 }
 
-a{
-    text-decoration: none;
-    color:black;
-}
 
 /* Aumento de tipografía */
 nav a:hover{
@@ -46,17 +48,17 @@ nav a:hover{
 
 /* visualización del pantallazo */
 .nav-link1:hover ~ .pantallazo{
+grid-column: 2/3;
+grid-row: 1/5;
 width:100%;
 height: 500px;
 background-image: url(../img/desktop/Nav1.jpg);
 background-repeat: no-repeat;
 background-size:contain;
 background-position: center;
-grid-column: 2/3;
-grid-row: 1/5;
 }
 
-.nav-link2:hover ~.pantallazo{
+.nav-link2:hover ~ .pantallazo{
 width:100%;
 height: 500px;
 background-image: url(../img/desktop/Nav2.jpg);
@@ -67,7 +69,7 @@ grid-column: 2/3;
 grid-row: 1/5;
 }
 
-.nav-link3:hover ~.pantallazo{
+.nav-link3:hover ~ .pantallazo{
 width:100%;
 height: 500px;
 background-image: url(../img/desktop/Nav3.jpg);
@@ -78,9 +80,14 @@ grid-column: 2/3;
 grid-row: 1/5;
 }
 
-.nav-link4:hover figure{
+.nav-link4:hover~ .pantallazo{
 width:100%;
 height: 500px;
-background-image: url(../img/desktop/Nav4.jpg);
+background-image: url(../img/desktop/Nav4.1.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+grid-column: 2/3;
+grid-row: 1/5;
 }
 
