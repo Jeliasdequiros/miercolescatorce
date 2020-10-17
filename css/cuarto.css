@@ -1,0 +1,226 @@
+
+main{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    }
+
+
+.pixar{
+    grid-column:3/5;
+    grid-row: 3/5;
+    background-image: url(../img/desktop/cuarto/logo\ pixar\ 4.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+}
+
+.insideout{
+    
+    grid-column:2/3;
+    grid-row:5/6;
+    background-image: url(../img/desktop/cuarto/inside\ out\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position:center;
+    margin:0;
+    filter: sepia();
+}
+
+.nemo{
+    grid-column:2/3;
+    grid-row:4/5;
+    background-image: url(../img/desktop/cuarto/finding\ nemo\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.brave{
+  
+    grid-column:2/3;
+    grid-row:3/4;
+    background-image: url(../img/desktop/cuarto/Brave\ 2.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.monters{
+    grid-column:2/3;
+    grid-row:2/3;
+    background-image: url(../img/desktop/cuarto/monsters\ 2.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+    
+}
+
+.ratatoille{
+    grid-column:3/4;
+    grid-row:2/3;
+    background-image: url(../img/desktop/cuarto/Ratatouille\ 3.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.incredibles{
+    grid-column:4/5;
+    grid-row:2/3;
+    background-image: url(../img/desktop/cuarto/the\ incredibles\ 2.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.toystory{
+    grid-column:5/6;
+    grid-row:2/3;
+    background-image: url(../img/desktop/cuarto/Toy\ story\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.walle{
+    grid-column:5/6;
+    grid-row:3/4;
+    background-image: url(../img/desktop/cuarto/walle\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.cars{
+    grid-column:5/6;
+    grid-row:4/5;
+    background-image: url(../img/desktop/cuarto/cars\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    filter: sepia();
+    margin:0;
+}
+
+.coco{
+    grid-column:5/6;
+    grid-row:5/6;
+    background-image: url(../img/desktop/cuarto/coco\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    filter: sepia();
+    margin:0;
+}
+
+.onward{
+    grid-column:4/5;
+    grid-row:5/6;
+    background-image: url(../img/desktop/cuarto/onward\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+.up{
+    grid-column:3/4;
+    grid-row:5/6;
+    background-image: url(../img/desktop/cuarto/Up\ 1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin:0;
+    filter: sepia();
+}
+
+.insideout:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 1;
+}
+
+.nemo:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 2; 
+}
+
+.brave:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 3; 
+}
+
+.monters:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 4; 
+}
+
+.ratatoille:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 5; 
+}
+
+
+.incredibles:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 6; 
+}
+
+.toystory:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 7;  
+}
+
+.walle:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 8;   
+}
+
+.cars:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 9; 
+}
+
+.coco:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 10; 
+}
+
+.onward:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 11;  
+}
+
+.up:hover{
+    filter: none;
+    transform: scale(200%);
+    z-index: 12;  
+}
+
